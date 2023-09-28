@@ -87,7 +87,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-md-6 bg-dark">
-                        <form>
+                        <form className='p-5'>
                             <div className="mb-3 mt-5">
                                 <input type="text" name='name' placeholder='NAME' className='form-control' />
                             </div>

@@ -73,3 +73,8 @@ h1 {
     text-justify: distribute;
     text-align: center;
 }
+
+
+.navbar-toggler{
+    background-color: aliceblue;
+}
