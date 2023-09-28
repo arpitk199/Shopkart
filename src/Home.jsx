@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     var data = [
@@ -66,7 +67,7 @@ export default function Home() {
                                         <h5 className="card-title">{item.name}</h5>
                                         <p className='card-text'>Sufferd alteration in some form, by suffalteration in some forme</p>
                                         <p className="card-text"><del className='text-danger'>&#8377;{item.Originalprice}</del> <span className='text-success'>&#8377;{item.finalprice}</span></p>
-                                        <a href="#" className="btn btn-dark w-100 btn-sm">Add to Cart</a>
+                                        <Link to="/" className="btn btn-dark w-100 btn-sm">Add to Cart</Link>
                                     </div>
                                 </div>
                             </div>
